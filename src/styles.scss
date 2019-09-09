@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: muli;
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/muli/Muli-Light.eot');
+  src: url('assets/fonts/muli/Muli-Light.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/muli/Muli-Light.woff2') format('woff2'),
+  url('assets/fonts/muli/Muli-Light.woff') format('woff'),
+  url('assets/fonts/muli/MuliLight.ttf') format('truetype');
+}
+
+
+body{
+  background-color: #ffffff!important;
+}
+
+body,div,table,label,button,span,a,p,legend,input {
+  text-decoration: none;
+  font-family: muli;
+}
+
+
+html{
+  direction: ltr;
+  text-align: left;
+}
